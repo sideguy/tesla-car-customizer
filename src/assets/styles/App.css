@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+/* src/assets/styles/App.css */
+.btn-selected {
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    padding: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .btn-selected:hover {
+    transform: scale(1) !important;
+  }
+  
+  .accessory-form-checkbox {
+    width: 20px;
+    height: 20px;
+  }
+  
+  
